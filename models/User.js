@@ -11,8 +11,8 @@ const UserSchema = new mongoose.Schema({
     required: true,
   },
   Avatar: {
-    type: Buffer,
-    required: false,
+    data: Buffer,
+    contentType: String,
   },
   Curency: {
     type: Number,
