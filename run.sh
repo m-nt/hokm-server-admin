@@ -1,6 +1,6 @@
 #!/bin/sh
 git pull
-docker rm -f auth
+docker rm -f admin
 docker images
 read IMAGE
 docker image rm $IMAGE
